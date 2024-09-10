@@ -1,0 +1,238 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top_menu {
+    width: 100%;
+}
+.top_menu .menu {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: right;
+}
+.top_menu .menu li {
+    display: inline-block;
+    margin:0 8px;
+    color: #444;
+    font-size: 12px;
+    padding: 12px 0;
+}
+.top_menu .menu_2{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.top_menu .menu_2 .first {
+    width: 299px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.top_menu .menu_2 .first img {
+    width: 82px;
+    height: 100%;
+    object-fit: cover;
+}
+.top_menu .menu_2 .first span {
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+}
+.top_menu .menu_2 .first span:first-child{
+    color: #9966cc;
+} 
+.top_menu .menu_2 .first span:last-child {
+    color: #999;
+}
+.top_menu .menu_2 .second {
+    width: 627px;
+}
+.top_menu .menu_2 .second span {
+    display: block;
+    width: 400px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 48px;
+    border: 1px solid #9966cc;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding-left: 12px;
+}
+.top_menu .menu_2 .third {
+    display: flex;
+    width: 299px;
+    justify-content: right;
+}
+.top_menu .menu_2 .third img {
+    width: 24px;
+    height: 24px;
+    margin: 11px 0 11px 12px;
+    /* 위/오른쪽/아래/왼쪽 */
+}
+.top_menu .menu_3 {
+    /* 506px */
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 8px 0;
+} 
+.top_menu .menu_3 .group1 {
+    height: 18px;
+    display:flex;
+}
+.top_menu .menu_3 .group1 img {
+    width: 18px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+.top_menu .menu_3 .group1 span {
+    font-size: 16px;
+    line-height: 36px;
+    height: 36px;
+    
+}
+.top_menu .menu_3 .main_menu{
+    width: 506px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_menu .menu_3 .main_menu li {
+    height: 36px;
+    line-height: 36px;
+}
+.top_menu .menu_3 .cc {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    padding: 0 16px;
+
+}
+.top_menu .menu_3 .cc strong {
+    color: #9966cc;
+}
+.banner {
+    width: 100%;
+    height: 372px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section1 {
+    width: 100%;
+    padding: 96px 0;
+}
+.section1 h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.section1 p{
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.section1 .content{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.section1 .content .item_01{
+    width: 299px;
+}
+.section1 .content .item_01 .image {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.section1 .content .item_01 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px 13px;
+    background-color: #9966cc;
+    color: #fff;
+    border-radius: 4px;
+    margin: 8px;
+}
+.text .aa{
+    display: block;
+    width: 100%;
+    height: 36px;
+    color: #000;
+    line-height: 36px;
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 8px;
+}
+.text p{
+    /* br태그사용안해도 자동 줄바꿈되는지 */
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: left;
+}
+.text strong .bb {
+    margin-right: 6px;
+    color: #ff6600;
+}
+ .text .cc {
+    margin-top: 16px;
+    display: block;
+    font-size: 14px;
+    color: #999;
+}
+.section2 {
+    width: 100%;
+}
+.section2 .content2{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.section2 .content2 .item_02{
+    width: 408px;
+    position: relative;
+}
+.section2 .content2 .item_02 h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.section2 .content2 .item_02 strong {
+    display: block;
+    padding: 4px 0;
+}
+.section2 .content2 .item_02 .image{
+    width: 100%;
+    height: 468px;
+}
+.section2 .content2 .item_02 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
